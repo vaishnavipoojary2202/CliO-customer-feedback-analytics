@@ -12,20 +12,20 @@ from pathlib import Path
 from typing import Any, Iterator
 
 PHONE_PATTERN = re.compile(
-    r"\\b(?:iphone|smartphone|smart phone|cell phone|mobile phone|"
-    r"google pixel|pixel\\s+\\d|galaxy\\s+[sazm]\\d|galaxy note|"
+    r"\b(?:iphone|smartphone|smart phone|cell phone|mobile phone|"
+    r"google pixel|pixel\s+\d|galaxy\s+[sazm]\d|galaxy note|"
     r"galaxy fold|galaxy flip|oneplus|redmi|poco phone|xiaomi phone|"
-    r"motorola edge|moto g\\d|moto edge|sony xperia|nokia [gxc]\\d|"
-    r"asus zenfone|nothing phone|oppo find|oppo reno|vivo [xv]\\d|"
-    r"realme \\d|huawei p\\d|huawei mate|honor magic)\\b",
+    r"motorola edge|moto g\d|moto edge|sony xperia|nokia [gxc]\d|"
+    r"asus zenfone|nothing phone|oppo find|oppo reno|vivo [xv]\d|"
+    r"realme \d|huawei p\d|huawei mate|honor magic)\b",
     re.IGNORECASE,
 )
 ACCESSORY_PATTERN = re.compile(
-    r"\\b(?:phone case|protective case|phone cover|screen protector|"
+    r"\b(?:phone case|protective case|phone cover|screen protector|"
     r"tempered glass|charger|charging cable|usb cable|adapter|"
     r"power bank|phone mount|phone holder|phone stand|"
     r"replacement battery|camera lens protector|phone skin|earbuds|"
-    r"headphones|stylus)\\b",
+    r"headphones|stylus)\b",
     re.IGNORECASE,
 )
 
