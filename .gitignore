@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Datasets and generated data: do not commit
+data/
+*.jsonl
+*.jsonl.gz
+*.csv
+*.parquet
+outputs/
+
+# Databases and vector stores
+*.db
+*.sqlite3/
+chroma_db/
+chroma/
+
+# Model caches and weights
+models/
+.cache/
+huggingface_cache/
+
+# Notebook and OS clutter
+.ipynb_checkpoints/
+.DS_Store
