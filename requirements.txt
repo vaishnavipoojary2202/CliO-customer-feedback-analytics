@@ -1,0 +1,21 @@
+# Core processing
+pandas>=2.2,<3.0
+numpy>=1.26
+tqdm>=4.66
+
+# NLP and evaluation
+scikit-learn>=1.4
+transformers>=4.45
+sentence-transformers>=3.0
+bertopic>=0.16
+
+# RAG / vector retrieval (planned)
+chromadb>=0.5
+langchain>=0.3
+langchain-community>=0.3
+
+# Configuration
+python-dotenv>=1.0
+
+# Tests
+pytest>=8.0
